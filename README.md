@@ -1,8 +1,13 @@
 # 교육센터 관리 프로그램
  본 프로젝트는 오라클을 데이터베이스로 이용, JDBC를 활용하여 구현한 교육센터 관리 프로그램 제작 프로젝트입니다.
+
+---
+
 ### 참여
 
 조아라(조장) 이준오 장진영 황원준 권주홍 신지수 
+
+---
 
 ### 구현 목표 기능
 
@@ -71,7 +76,7 @@
 4. 개인 정보 조회/수정 기능
 5. 구인 정보 조회 기능
 
-
+---
 
 ### 개발환경
 
@@ -81,11 +86,15 @@
 
 개발언어 : JAVA(JDK 1.8)
 
+---
+
 ### 프로그램 구성도
 
 기획 당시 작성한 구성도
 
 ![](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/프로그램%20구성도.png)
+
+---
 
 ### 개발일정
 
@@ -119,6 +128,8 @@
 | 12/25 (금) | 테스트                        |
 | 12/28 (토) | 테스트 (총 2일 소요)          |
 
+---
+
 ### 담당업무
 
 |    단계    | 조아라 담당업무(교육생 담당)                                 |
@@ -128,8 +139,6 @@
 | 마무리단계 | - 프로그램 담당업무 화면 캡처                                |
 
 #### 조아라 구현 코드
-
- 교사/교육생/관리자 로그인 기능 구현<br />- 교육생 로그인시 간략한 교육생 정보(참여중인 과정명, 강의실, 출석률그래프) 조회 기능 구현<br />- 교육생 출결 전체 조회(출결상태별 횟수 조회 포함) 기능 구현<br />- 교육생 출결 월별 조회(달력형식) 기능 구현<br />- 교육생 출결 일별 조회 기능 구현 <br />\- 교육생 출결 입력 기능 구현<br />\- 교육생 강의 평가 조회 기능 구현<br />\- 교육생 강의 평가 입력 기능 구현<br />\- 교육생 구인 정보 조회 기능 구현
 
 1. [교사/교육생/관리자 로그인 기능 구현](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/src/com/sisteducenter/start/Login.java)
 
@@ -160,7 +169,7 @@
 ![조회화면](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/출결%20조회%20및%20입력/출결일별조회.png)
 
 6. [교육생 출결 입력 기능 구현](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/src/com/sisteducenter/attendance/InsertAttendanceRecord.java)
- ![입실체크 성공](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/출결%20조회%20및%20입력/입실체크완료.png)
+![입실체크 성공](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/출결%20조회%20및%20입력/입실체크완료.png)
 
 ![입실체크 메인화면](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/출결%20조회%20및%20입력/출결입력메뉴.png)
 
@@ -196,6 +205,8 @@
 
 ![](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/구인정보조회/구인정보조회4.png)
 
+---
+
 ### 구현시 어려웠던 점
 
 #### 자바, 오라클 중 어디에서 예외처리를 할 것인가?
@@ -221,6 +232,8 @@
  두번째는 6시 이전에 퇴실체크하는 경우입니다. 이 경우는 6가지 경우 중 3. 조퇴, 4. 외출, 5. 병가, 6. 기타만 입력이 가능합니다. 그렇기 때문에 6시 이후인데 위의 네 경우를 입력했을 때에는 예외처리를 해서 6시 이전에만 입력이 가능하도록 했습니다.
 
 [교육생 출결 입력 프로시저 자세히 보기](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B3%5D%20쿼리/DML/교육생/4.%20출결입력(아라).sql)
+
+---
 
 ### 소감
 
