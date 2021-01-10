@@ -135,7 +135,9 @@
 
 ![교육생 로그인](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/교육생%20로그인.png)
 
-2. [교육생 로그인시 간략한 교육생 정보(참여중인 과정명, 강의실, 출석률 그래프) 조회 기능 구현](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/src/com/sisteducenter/student/studentMain.java)
+2. [교육생 로그인시 간략한 교육생 정보(참여중인 과정명, 강의실) 조회 기능 구현](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/src/com/sisteducenter/student/studentMain.java)
+
+2-1. [출석률 그래프 조회 기능 구현](https://github.com/arajo-hub/Java-Oracle-Project/blob/3cfba68ec8cc4700869b3faade56e4149daa863d/src/com/sisteducenter/attendance/ShowAttendanceAll.java)
 
 ![](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/교육생%20메인.png)
 
