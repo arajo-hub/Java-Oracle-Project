@@ -176,7 +176,7 @@
 
 ![퇴실체크 가능한 시간이 아닐 경우](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/출결%20조회%20및%20입력/퇴실체크%20-%20퇴실체크가능한%20시간이%20아닐%20경우.png)
 
-7. [교육생 강의 평가 조회 기능 구현](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/src/com/sisteducenter/jobinfo/ShowJobInfoList.java)
+7. [교육생 강의 평가 조회 기능 구현](https://github.com/arajo-hub/Java-Oracle-Project/blob/3cfba68ec8cc4700869b3faade56e4149daa863d/src/com/sisteducenter/admin/lectureevaluation/LectureEvaluationStudent.java)
 
 ![강의평가조회](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/강의평가조회/강의평가조회.png)
 
