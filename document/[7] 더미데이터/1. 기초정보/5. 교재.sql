@@ -1,0 +1,33 @@
+-- 교재 더미데이터
+-- 총 30건.
+set define off;
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, 'Java의 정석', '도우출판');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, 'Do it! 첫 코딩', '이지스퍼블리싱');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, 'Do it! 오라클로 배우는 데이터베이스 입문', '이지스퍼블리싱');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '다양한 예제로 쉽게 배우는 오라클 SQL과 PL/SQL', '생능출판');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, 'SQL활용 모듈 교재', '한국직업능력개발원');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, 'JDBC API를 이용한 데이터베이스 프로그래밍', '한국학술정보');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '모던 자바스크립트 Deep Dive', '위키북스');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '자바스크립트+jQuery 완전정복 스터디', '교학사');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, 'UML로 배우는 시스템 분석 설계', '생능출판');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '코드로 배우는 스프링 웹프로젝트', '구멍가게 코딩단');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '최범균의 JSP2.3웹프로그래밍', '가메');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, 'JSPStudy의 JSP & Servlet 웹 프로그래밍 입문+활용', '앤써북');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '처음 해보는 Servlet&JSP 웹 프로그래밍', '루비페이퍼');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '애플리케이션 배포 묘듈교재', '한국직업능력개발원');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '애플리케이션 설계 모듈교재', '한국직업능력개발원');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, 'HTML5 웹 프로그래밍 입문', '한빛아카데미');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, 'Do it! HTML5+CSS3 웹 표준의 정석', '이지스퍼블리싱');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '화면구현 모듈교재', '한국직업능력개발원');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '인터페이스 구현 모듈교재', '한국직업능력개발원');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '생활코딩! HTML+CSS+자바스크립트', '위키북스');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '혼자공부하는 파이썬', '한빛미디어');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, 'Do it! 점프 투 파이썬', '이지퍼블리싱');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '파이썬 알고리즘 인터뷰', '책만');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '실무로 배우는 빅데이터 기술', '위키북스');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '빅데이터 분석을 위한 R 프로그래밍', '가메');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '세상을 읽는 새로운 언어, 빅데이터', '21세기북스');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '상상을 현실로 만드는 아두이노(Arduino)', '에듀아이');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '임베디드 애플리케이션 구현 모듈교재', '한국직업능력개발원');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '네트워크 프로그래밍 구현', '한국직업능력개발원');
+insert into tblBook (seq, title, publisher) values (SEQTBLBOOK.nextval, '밑바닥부터 시작하는 딥러닝', '한빛미디어');

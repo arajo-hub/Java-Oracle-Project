@@ -1,0 +1,22 @@
+drop sequence seqTblAdmin;
+drop sequence seqTblStudent;
+drop sequence seqTblTeacher;
+drop sequence seqTblCourse;
+drop sequence seqTblBook;
+drop sequence seqTblSubject;
+drop sequence seqTblLectureRoom;
+--drop sequence seqTblPossibleSubject; (복합키사용으로 변경)
+drop sequence seqTblOpenCourse;
+drop sequence seqTblOpenSubject;
+drop sequence seqTblRegistration;
+drop sequence seqTblAttendanceState;
+drop sequence seqTblAttendance;
+drop sequence seqTblScoreAllot;
+drop sequence seqTblExam;
+drop sequence seqTblLectureEvaluation;
+drop sequence seqTblGradeInfo;
+drop sequence seqTblGrade;
+drop sequence seqTblIndustry;
+drop sequence seqTblCompany;
+drop sequence seqTblJobInfo;
+drop sequence seqTbljobNoticePeriod;

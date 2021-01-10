@@ -1,0 +1,22 @@
+create sequence seqTblAdmin;
+create sequence seqTblStudent;
+create sequence seqTblTeacher;
+create sequence seqTblCourse;
+create sequence seqTblBook;
+create sequence seqTblSubject;
+create sequence seqTblLectureRoom;
+--create sequence seqTblPossibleSubject; (복합키사용으로 변경)
+create sequence seqTblOpenCourse;
+create sequence seqTblOpenSubject;
+create sequence seqTblRegistration;
+create sequence seqTblAttendanceState;
+create sequence seqTblAttendance;
+create sequence seqTblScoreAllot;
+create sequence seqTblExam;
+create sequence seqTblLectureEvaluation;
+create sequence seqTblGradeInfo;
+create sequence seqTblGrade;
+create sequence seqTblIndustry;
+create sequence seqTblCompany;
+create sequence seqTblJobInfo;
+create sequence seqTbljobNoticePeriod;

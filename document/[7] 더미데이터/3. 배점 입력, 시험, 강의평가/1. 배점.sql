@@ -1,0 +1,79 @@
+-- 배점 더미데이터
+-- 컬럼 : 배점번호/필기배점/실기배점/출결배점/개설과목번호
+-- 과목 한 과정당 12개
+-- 5과정 개설과목번호 49~60번.
+-- 6과정 개설과목번호 61~72번.
+-- 총 24개.
+
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 1);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 50, 20, 2);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 50, 30, 20, 3);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 10, 50, 40, 4);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 30, 40, 5);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 10, 50, 40, 6);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 7);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 8);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 50, 20, 9);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 30, 40, 10);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 10, 50, 40, 11);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 12);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 13);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 30, 40, 14);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 20, 50, 15);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 16);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 30, 40, 17);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 10, 50, 40, 18);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 19);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 50, 20, 20);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 20, 50, 21);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 22);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 50, 20, 23);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 10, 50, 40, 24);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 25);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 50, 20, 26);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 20, 50, 27);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 28);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 30, 40, 29);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 50, 20, 30);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 10, 50, 40, 31);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 32);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 50, 20, 33);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 50, 30, 20, 34);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 35);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 50, 20, 36);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 30, 40, 37);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 38);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 50, 20, 39);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 30, 40, 40);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 41);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 50, 20, 42);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 50, 30, 20, 43);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 44);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 50, 20, 45);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 30, 40, 46);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 47);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 50, 20, 48);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 30, 40, 49);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 50);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 50, 20, 51);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 50, 30, 20, 52);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 53);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 20, 50, 54);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 50, 20, 55);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 56);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 20, 50, 57);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 50, 20, 58);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 59);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 50, 30, 20, 60);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 20, 50, 61);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 62);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 20, 50, 63);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 64);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 50, 30, 20, 65);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 50, 20, 66);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 20, 50, 67);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 68);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 30, 40, 69);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 30, 50, 20, 70);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 50, 30, 20, 71);
+insert into tblScoreAllot(seq, handwritingAllot, practiceAllot, attendanceAllot, openSubSeq) values (seqTblScoreAllot.nextVal, 40, 40, 20, 72);
