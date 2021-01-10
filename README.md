@@ -135,10 +135,6 @@
 
 ![교육생 로그인](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/교육생%20로그인.png)
 
-![교사 로그인](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교사/교사%20로그인.png)
-
-![관리자 로그인](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/관리자/관리자%20로그인.png)
-
 2. [교육생 로그인시 간략한 교육생 정보(참여중인 과정명, 강의실, 출석률 그래프) 조회 기능 구현](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/src/com/sisteducenter/student/studentMain.java)
 
 ![](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/교육생%20메인.png)
@@ -162,7 +158,7 @@
 ![조회화면](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/출결%20조회%20및%20입력/출결일별조회.png)
 
 6. [교육생 출결 입력 기능 구현](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/src/com/sisteducenter/attendance/InsertAttendanceRecord.java)
-7. ![입실체크 성공](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/출결%20조회%20및%20입력/입실체크완료.png)
+ ![입실체크 성공](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/출결%20조회%20및%20입력/입실체크완료.png)
 
 ![입실체크 메인화면](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/출결%20조회%20및%20입력/출결입력메뉴.png)
 
@@ -182,13 +178,13 @@
 
 ![강의평가조회](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/강의평가조회/강의평가조회.png)
 
-8. (교육생 강의 평가 입력 기능 구현 )[https://github.com/arajo-hub/Java-Console-Project/blob/main/src/data/NoticeBoard.java]
+8. [교육생 강의 평가 입력 기능 구현](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/src/com/sisteducenter/admin/lectureevaluation/SetEachEvaluationStudent.java)
 
 ![강의평가 완료](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/강의평가조회/강의평가완료.png)
 
 ![이미 강의평가한 과목을 선택했을 경우](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/강의평가조회/강의평가%20-%20이미%20강의평가한%20과목을%20선택했을%20경우.png)
 
-9. (교육생 구인 정보 조회 기능 구현)[https://github.com/arajo-hub/Java-Oracle-Project/blob/main/src/com/sisteducenter/jobinfo/ShowJobInfoList.java]
+9. [교육생 구인 정보 조회 기능 구현](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/src/com/sisteducenter/jobinfo/ShowJobInfoList.java)
 
 ![](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B8%5D%20화면캡처/교육생/구인정보조회/구인정보조회1.png)
 
@@ -206,7 +202,7 @@
 
  교육생/교사/관리자 로그인 기능을 구현할 때, 아이디가 존재하지 않는 예외를 처리하기 위해 프로시저에서 실행결과를 나타내는 변수(presult)를 만들어 정상적으로 실행됐을 경우 1을 입력, 아이디가 존재하지 않을 경우(no_data_found) 2를 입력하여 자바에서 반환받은 결과값이 2일 경우, 아이디가 존재하지 않는다는 문구를 출력하도록 했습니다.
 
-(교육생/교사/관리자 로그인 프로시저 자세히 보기)[https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B3%5D%20쿼리/DML/9.%20로그인.sql]
+[교육생/교사/관리자 로그인 프로시저 자세히 보기](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B3%5D%20쿼리/DML/9.%20로그인.sql)
 
 #### 교육생 출결 입력 중 시간대별 상태별 처리를 어떻게 할 것인가?
 
@@ -222,7 +218,7 @@
 
  두번째는 6시 이전에 퇴실체크하는 경우입니다. 이 경우는 6가지 경우 중 3. 조퇴, 4. 외출, 5. 병가, 6. 기타만 입력이 가능합니다. 그렇기 때문에 6시 이후인데 위의 네 경우를 입력했을 때에는 예외처리를 해서 6시 이전에만 입력이 가능하도록 했습니다.
 
-(교육생 출결 입력 프로시저 자세히 보기)[https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B3%5D%20쿼리/DML/교육생/4.%20출결입력(아라).sql]
+[교육생 출결 입력 프로시저 자세히 보기](https://github.com/arajo-hub/Java-Oracle-Project/blob/main/document/%5B3%5D%20쿼리/DML/교육생/4.%20출결입력(아라).sql)
 
 ### 소감
 
