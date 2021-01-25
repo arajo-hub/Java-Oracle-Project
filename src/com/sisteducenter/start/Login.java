@@ -7,7 +7,7 @@ import java.util.HashMap;
 import java.util.Scanner;
 
 import com.sisteducenter.admin.AdminMain;
-import com.sisteducenter.student.studentMain;
+import com.sisteducenter.student.StudentMain;
 import com.sisteducenter.teacher.TeacherMain;
 
 import oracle.jdbc.OracleTypes;
@@ -91,7 +91,7 @@ public class Login {
 					cstat.close(); // 로그인에 성공했으니 자원 해제.
 					
 					if (sel.equals("1")) { // 교육생 로그인 선택
-						studentMain.showMain(seq);
+						StudentMain.showMain(seq);
 					}else if (sel.equals("2")) { // 교사 로그인 선택
 						TeacherMain.showMain(seq);
 					}else { // 관리자 로그인 선택

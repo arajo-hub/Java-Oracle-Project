@@ -2,7 +2,7 @@ package com.sisteducenter.attendance;
 
 import java.util.Scanner;
 
-import com.sisteducenter.student.studentMain;
+import com.sisteducenter.student.StudentMain;
 
 /**
  * 출결정보를 입력하는 클래스입니다.
@@ -49,7 +49,7 @@ public class InsertAttendanceRecord {
 			}else if (sel.equals("2")) { // 퇴실체크
 				insertStateAndOutTime(seq);
 			}else if (sel.equals("3")) { // 뒤로가기
-				studentMain.showMain(seq);
+				StudentMain.showMain(seq);
 				loop=false;
 			}else if (sel.equals("00")) { // 종료
 				loop=false;

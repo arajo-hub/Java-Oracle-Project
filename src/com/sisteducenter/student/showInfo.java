@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author 조아라
  *
  */
-public class showInfo {
+public class ShowInfo {
 	
 	static Scanner scan=new Scanner(System.in);
 	
@@ -26,9 +26,9 @@ public class showInfo {
 			showHeader();
 			
 			// 교육생 정보 출력
-			studentDTO dto=new studentDTO();
+			StudentDTO dto=new StudentDTO();
 			
-			dto=studentDAO.getPersonalInfo(seq);
+			dto=StudentDAO.getPersonalInfo(seq);
 			
 			System.out.println();
 			System.out.println();
@@ -55,11 +55,11 @@ public class showInfo {
 			String sel=scan.nextLine();
 			
 			if (sel.equals("1")){ // 뒤로가기
-				studentMain.showMain(seq);
+				StudentMain.showMain(seq);
 				loop=false;
 			
 			}else if (sel.equals("2")){ // 개인정보 수정
-				editInfo.editPersonalInfo(dto);
+				EditInfo.editPersonalInfo(dto);
 				loop=false;
 					
 			}else if (sel.equals("00")) { // 프로그램 종료

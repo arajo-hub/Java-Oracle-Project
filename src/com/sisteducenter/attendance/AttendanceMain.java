@@ -2,7 +2,7 @@ package com.sisteducenter.attendance;
 
 import java.util.Scanner;
 
-import com.sisteducenter.student.studentMain;
+import com.sisteducenter.student.StudentMain;
 
 /**
  * 교육생 메인 메뉴에서 출결 조회 및 관리를 선택했을 때의 화면을 담당하는 클래스입니다.
@@ -56,7 +56,7 @@ public class AttendanceMain {
 				InsertAttendanceRecord.insertRecord(seq);
 				loop=false;
 			}else if (sel.equals("3")) { // 뒤로가기
-				studentMain.showMain(seq);
+				StudentMain.showMain(seq);
 			}else if (sel.equals("00")) { // 프로그램 종료 선택
 				System.out.println("\t\t\t\t\t프로그램을 종료합니다.");
 				loop=false;

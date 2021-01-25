@@ -1,6 +1,6 @@
 package com.sisteducenter.student;
 
-public class studentDTO {
+public class StudentDTO {
 
 	private String seq;
 	private String name;

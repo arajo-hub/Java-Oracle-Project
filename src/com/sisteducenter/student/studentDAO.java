@@ -16,7 +16,7 @@ import oracle.jdbc.OracleTypes;
  * @author 조아라
  *
  */
-public class studentDAO {
+public class StudentDAO {
 	
 	private static Connection conn = null;
 	private static Statement stat=null;
@@ -85,9 +85,9 @@ public class studentDAO {
 	 * @param seq : 교육생번호
 	 * @return 교육생정보를 나타내는 studentDTO를 반환합니다.
 	 */
-	public static studentDTO getPersonalInfo(String seq) {
+	public static StudentDTO getPersonalInfo(String seq) {
 	
-		studentDTO dto=new studentDTO();
+		StudentDTO dto=new StudentDTO();
 		
 		try {
 			
@@ -128,7 +128,7 @@ public class studentDAO {
 	 * @param dto : 교육생정보를 나타냅니다.
 	 * @return 수행결과를 반환합니다.
 	 */
-	public static int editPersonalInfo(studentDTO dto) {
+	public static int editPersonalInfo(StudentDTO dto) {
 		
 		try {
 			

@@ -7,7 +7,7 @@ import java.util.Scanner;
  * @author 조아라
  *
  */
-public class editInfo {
+public class EditInfo {
 	
 	static Scanner scan=new Scanner(System.in);
 
@@ -15,7 +15,7 @@ public class editInfo {
 	 * 교육생 개인정보를 나타내고 수정하는 화면을 나타내는 메서드입니다.
 	 * @param dto : 교육생 개인정보입니다.
 	 */
-	public static void editPersonalInfo(studentDTO dto) {
+	public static void editPersonalInfo(StudentDTO dto) {
 		/*
 		 * 개인정보
 		 * 
@@ -51,7 +51,7 @@ public class editInfo {
 			employment=dto.getEmployment();
 		}
 		
-		studentDTO dto2=new studentDTO();
+		StudentDTO dto2=new StudentDTO();
 		
 		dto2.setSeq(dto.getSeq());
 		dto2.setName(name);
@@ -59,7 +59,7 @@ public class editInfo {
 		dto2.setTel(tel);
 		dto2.setEmployment(employment);
 		
-		int result=studentDAO.editPersonalInfo(dto2);
+		int result=StudentDAO.editPersonalInfo(dto2);
 		
 		if (result>0) {
 			System.out.println("\t\t\t\t정보를 수정했습니다.");
@@ -67,7 +67,7 @@ public class editInfo {
 			System.out.println("\t\t\t\t[!!!]");
 			System.out.println("\t\t\t\t정보를 수정하지 못했습니다.");
 		}
-		showInfo.showPersonalInfo(dto.getSeq());
+		ShowInfo.showPersonalInfo(dto.getSeq());
 		
 	}
 	

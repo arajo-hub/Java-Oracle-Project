@@ -3,7 +3,7 @@ package com.sisteducenter.attendance;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import com.sisteducenter.student.studentDAO;
+import com.sisteducenter.student.StudentDAO;
 
 /**
  * 출결정보를 전체조회하는 클래스입니다.
@@ -21,7 +21,7 @@ public class ShowAttendanceAll {
 		
 		
 		list=AttendanceDAO.getAllRecord(seq);
-		courseInfo=studentDAO.getTitle(seq);
+		courseInfo=StudentDAO.getTitle(seq);
 		// 교육생번호를 인자로 보내서 교육생이 수강한 과정의 출결정보를 list로 가져온다.
 		/*
 		 * list.get(0) : 입실시간

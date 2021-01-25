@@ -3,7 +3,7 @@ package com.sisteducenter.admin.grade;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import com.sisteducenter.student.studentMain;
+import com.sisteducenter.student.StudentMain;
 
 /**
  * 성적정보를 출력하기 위한 클래스입니다.
@@ -47,7 +47,7 @@ public class ShowGrade {
 			String sel=scan.nextLine();
 			
 			if (sel.equals("1")){ // 뒤로가기
-				studentMain.showMain(seq);
+				StudentMain.showMain(seq);
 				loop=false;
 				
 			}else if (sel.equals("00")) { // 프로그램 종료

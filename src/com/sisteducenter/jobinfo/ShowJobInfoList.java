@@ -3,7 +3,7 @@ package com.sisteducenter.jobinfo;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import com.sisteducenter.student.studentMain;
+import com.sisteducenter.student.StudentMain;
 
 /**
  * 구직정보리스트를 조회하기 위한 클래스입니다.
@@ -91,7 +91,7 @@ public class ShowJobInfoList {
 			
 			}else if (sel.equals("3")){ // 뒤로가기
 				
-				studentMain.showMain(seq);
+				StudentMain.showMain(seq);
 				loop=false;
 				
 			}else if (sel.equals("00")){ // 종료

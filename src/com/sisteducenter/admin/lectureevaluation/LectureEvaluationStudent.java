@@ -3,7 +3,7 @@ package com.sisteducenter.admin.lectureevaluation;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import com.sisteducenter.student.studentMain;
+import com.sisteducenter.student.StudentMain;
 
 /**
  * 교육생의 강의평가를 조회할 수 있는 클래스입니다.
@@ -65,7 +65,7 @@ public class LectureEvaluationStudent {
 			String sel=scan.nextLine();
 			
 			if (sel.equals("")) {
-				studentMain.showMain(seq);
+				StudentMain.showMain(seq);
 			}else if (sel.equals("00")) { // 종료 선택
 				loop=false;
 			}else{

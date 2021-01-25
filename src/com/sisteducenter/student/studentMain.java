@@ -14,7 +14,7 @@ import com.sisteducenter.jobinfo.ShowJobInfoList;
  * @author 조아라
  *
  */
-public class studentMain {
+public class StudentMain {
 
 	private static Scanner scan;
 	
@@ -73,7 +73,7 @@ public class studentMain {
 				break;
 				
 			}else if (sel.equals("4")) { // 개인 정보 조회
-				showInfo.showPersonalInfo(seq);
+				ShowInfo.showPersonalInfo(seq);
 				break;
 				
 			}else if (sel.equals("5")) { // 구인 정보 조회
@@ -117,7 +117,7 @@ public class studentMain {
 		
 		ArrayList<String> list=new ArrayList<String>();
 		
-		list=studentDAO.getTitle(seq);
+		list=StudentDAO.getTitle(seq);
 		// 교육생번호를 인자로 보내서 교육생이 수강한 과정의 간략한 정보를 list로 가져온다.
 		/*
 		 * list.get(0) : 교육생명
