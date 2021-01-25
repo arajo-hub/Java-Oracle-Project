@@ -14,7 +14,7 @@ import oracle.jdbc.OracleTypes;
 
 /**
  * 교육생, 교사, 관리자의 로그인 기능을 담당하는 클래스입니다.
- * @author 1조
+ * @author 
  *
  */
 public class Login {
